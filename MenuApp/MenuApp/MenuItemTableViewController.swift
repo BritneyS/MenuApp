@@ -1,5 +1,5 @@
 //
-//  MenuTableViewController.swift
+//  MenuItemTableViewController.swift
 //  MenuApp
 //
 //  Created by Britney Smith on 9/5/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MenuTableViewController: UITableViewController {
+class MenuItemTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,41 +29,23 @@ class MenuTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return mainMenu.count
+        // #warning Incomplete implementation, return the number of rows
+        return 0
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "mainMenu", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = mainMenu[indexPath.row]
 
         return cell
     }
-    // multiple segue trick
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        let segueIdentifier: String
-        
-        switch indexPath.row {
-        case 0:
-            segueIdentifier = "mainMenuToMenuItem"
-//        case 1:
-//            segueIdentifier = "MathSegue"
-//        case 2:
-//            segueIdentifier = "TriviaSegue"
-        default:
-            segueIdentifier = "mainMenuToMenuItem"
-        }
-        
-        self.performSegue(withIdentifier: segueIdentifier, sender: self)
-    }
- 
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -100,19 +82,14 @@ class MenuTableViewController: UITableViewController {
     }
     */
 
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        // Get the new view controller using segue.destinationViewController.
-//        // Pass the selected object to the new view controller.
-//        
-//        if segue.identifier == "mainMenuToMenuItem" { //can add idenfier as enum
-//            let controller = segue.destination as! MenuItemTableViewController //as : casting object (downcasting), can be nil
-//            controller.delegate = self //self as delegate (ChecklistViewController)
-//        }
-//    }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }

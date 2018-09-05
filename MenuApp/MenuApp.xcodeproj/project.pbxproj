@@ -15,6 +15,7 @@
 		06CA9B0B2140107E00679FE9 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA9B0A2140107E00679FE9 /* MainMenu.swift */; };
 		06CA9B0D2140110D00679FE9 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA9B0C2140110D00679FE9 /* MenuItem.swift */; };
 		06CA9B0F2140143400679FE9 /* FoodBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA9B0E2140143400679FE9 /* FoodBank.swift */; };
+		06CA9B112140196400679FE9 /* MenuItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA9B102140196400679FE9 /* MenuItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		06CA9B0A2140107E00679FE9 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		06CA9B0C2140110D00679FE9 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		06CA9B0E2140143400679FE9 /* FoodBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBank.swift; sourceTree = "<group>"; };
+		06CA9B102140196400679FE9 /* MenuItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				06CA9AF621400F6C00679FE9 /* AppDelegate.swift */,
 				06CA9B0A2140107E00679FE9 /* MainMenu.swift */,
 				06CA9B0821400FF600679FE9 /* MenuTableViewController.swift */,
+				06CA9B102140196400679FE9 /* MenuItemTableViewController.swift */,
 				06CA9AFA21400F6C00679FE9 /* Main.storyboard */,
 				06CA9AFD21400F6C00679FE9 /* Assets.xcassets */,
 				06CA9AFF21400F6C00679FE9 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06CA9B0921400FF600679FE9 /* MenuTableViewController.swift in Sources */,
+				06CA9B112140196400679FE9 /* MenuItemTableViewController.swift in Sources */,
 				06CA9B0D2140110D00679FE9 /* MenuItem.swift in Sources */,
 				06CA9B0B2140107E00679FE9 /* MainMenu.swift in Sources */,
 				06CA9AF721400F6C00679FE9 /* AppDelegate.swift in Sources */,
